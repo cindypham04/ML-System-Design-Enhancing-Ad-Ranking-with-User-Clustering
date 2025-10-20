@@ -11,11 +11,11 @@ This project adds a new dimension by grouping users into behavioral clusters, al
 
 Goals
 
-Cluster users based on engagement metrics (CTR, reactions, time spent, etc.)
+- Cluster users based on engagement metrics (CTR, reactions, time spent, etc.)
 
-Add cluster_id as a new feature for the ad ranker
+- Add cluster_id as a new feature for the ad ranker
 
-Evaluate its impact through A/B testing on key ad KPIs
+- Evaluate its impact through A/B testing on key ad KPIs
 
 ***2. Project Structure***
 - user_profiling.ipynb      # Main notebook: data processing, clustering, and analysis
