@@ -17,11 +17,11 @@ Add cluster_id as a new feature for the ad ranker
 
 Evaluate its impact through A/B testing on key ad KPIs
 
-2. Project Structure
+***2. Project Structure***
 ├── user_profiling.ipynb      # Main notebook: data processing, clustering, and analysis
 ├── README.md                 # Project documentation
 
-3. How to Run
+***3. How to Run***
 
 Open user_profiling.ipynb in Google Colab.
 
@@ -36,15 +36,15 @@ Run all cells in order to reproduce preprocessing, PCA, clustering, and visualiz
 
 Outputs include:
 
-PCA projections
+- PCA projections
 
-Elbow method plot
+- Elbow method plot
 
-Cluster feature comparison tables
+- Cluster feature comparison tables
 
-Heatmaps showing user behavior differences
+- Heatmaps showing user behavior differences
 
-4. Results
+***4. Results***
 
 Optimal number of clusters: 5
 
@@ -52,7 +52,7 @@ Highest-value group: Cluster 3 (Power Users / Influencers) – highest CTR and e
 
 Practical use: Add cluster_id to the ad ranker to improve targeting efficiency and ad performance
 
-5. Tech Stack
+***5. Tech Stack***
 
 Language: Python
 
@@ -62,16 +62,6 @@ Compute Environment: Google Colab
 
 Storage: Google Drive
 
-6. Future Work
-
-Automate the clustering pipeline with Apache Airflow
-
-Move model training to AWS SageMaker or Google Cloud Vertex AI
-
-Add monitoring for data drift and performance degradation
-
-Incorporate richer engagement signals (e.g., dwell time per ad category)
-
-7. Acknowledgments
+***6. Acknowledgments***
 
 Thanks to Arman Kharwal for providing this dataset and to Notion for offering an intuitive platform for documenting this project.
