@@ -1,10 +1,10 @@
-ML System Design – Enhancing Ad Ranking with User Clustering
+**ML System Design – Enhancing Ad Ranking with User Clustering**
 
 This project demonstrates how user clustering can improve a social media ad ranking system. Using simulated user behavior data from a fictional platform called ConnectHub, it builds an unsupervised learning pipeline that groups users based on their ad interaction patterns.
 
 The resulting cluster_id feature is designed to be integrated into the ad ranking model to improve Click-Through Rate (CTR) and conversion rate.
 
-1. Overview
+***1. Overview***
 
 Traditional ad ranking systems rely heavily on individual user features such as demographics or recent clicks.
 This project adds a new dimension by grouping users into behavioral clusters, allowing the ranker to learn from similar users and make more informed predictions.
