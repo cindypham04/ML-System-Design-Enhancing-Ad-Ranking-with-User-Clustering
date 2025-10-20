@@ -18,8 +18,8 @@ Add cluster_id as a new feature for the ad ranker
 Evaluate its impact through A/B testing on key ad KPIs
 
 ***2. Project Structure***
-├── user_profiling.ipynb      # Main notebook: data processing, clustering, and analysis
-├── README.md                 # Project documentation
+- user_profiling.ipynb      # Main notebook: data processing, clustering, and analysis
+- README.md                 # Project documentation
 
 ***3. How to Run***
 
